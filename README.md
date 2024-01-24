@@ -1,2 +1,2 @@
-# decodificador
+# Decodificador
 Decodificador de texto
