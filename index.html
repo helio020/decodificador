@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./src/assets/data-security.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
     <title>Decodificador de Texto</title>
 </head>
 
@@ -12,8 +14,29 @@
     <header>
         <img src="./src/assets/Frame 6.svg" alt="Logo">
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="container">
+        <section class="container__content">
+            <input type="text" name="input" id="input" class="container__content__text">
+            <div class="container__alert">
+                <img src="./src/assets/Vector.svg" alt="Ícone de exclamação" class="container__alert__icon">
+                <span class="container__alert__span">Apenas letras minúsculas e sem acento.</span>
+            </div>
+            <button class="container__content__btn-cript">Criptografar</button>
+            <button class="container__content__btn-descript">Descriptografar</button>
+        </section>
+        <section class="container__box-message">
+            <div class="container__div">
+                <img src="./src/assets/High quality products 1 1.svg"
+                    alt="Imagem de uma menina usando lupa no diamante">
+                <h2 class="container__div__subtitle">Nenhuma mensagem encontrada</h2>
+                <p class="container__div__paragraph">Digite um texto que você deseja criptografar ou descriptografar.
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>Desenvolvido por Hélio</h2>
+    </footer>
 </body>
 
 </html>

@@ -1,0 +1,12 @@
+:root {
+    --color-primary: #F3F5FC
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-primary);
+}
+
+.container__box-message__div {
+    background-color: #ffffff;
+}
