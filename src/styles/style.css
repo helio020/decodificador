@@ -122,8 +122,17 @@ header {
     width: 21rem;
 }
 
-.container__box-message__text-encrypted {
+.container__box-message__generated-text {
     display: none;
+    resize: none;
+    font-family: var(--font-primary);
+    font-size: 1.5rem;
+    color: var(--color-tertiary);
+    margin-bottom: 1rem;
+    border: none;
+    outline: 0;
+    width: 21.5rem;
+    height: 34rem;
 }
 
 .container__box-message__btn-copy {
@@ -141,9 +150,7 @@ header {
 }
 
 footer {
-    position: absolute;
-    bottom: 1rem;
-    left: 40rem;
+    text-align: center;
 }
 
 footer>h2 {
