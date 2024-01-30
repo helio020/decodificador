@@ -41,7 +41,7 @@ function btnEncryptOnClick() {
   paragraph.style.display = "none";
   generatedText.innerHTML = text;
   generatedText.style.display = "block";
-  btnCopy.style.display = "block";
+  btnCopy.style.display = "flex";
 
   validateAndShowError();
 }
@@ -58,7 +58,7 @@ function btnDecryptOnClick() {
   paragraph.style.display = "none";
   generatedText.innerHTML = text;
   generatedText.style.display = "block";
-  btnCopy.style.display = "block";
+  btnCopy.style.display = "flex";
 
   validateAndShowError();
 }
