@@ -2,50 +2,50 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./src/assets/data-security.png" type="image/x-icon">
-    <link rel="stylesheet" href="./src/styles/reset.css">
-    <link rel="stylesheet" href="./src/styles/style.css">
-    <link rel="stylesheet" href="./src/styles/media-query.css">
-    <title>Decodificador de Texto</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./src/assets/data-security.png" type="image/x-icon">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/style.css">
+  <link rel="stylesheet" href="./src/styles/media-query.css">
+  <title>Decodificador de Texto</title>
 </head>
 
 <body>
-    <header>
-        <img src="./src/assets/Frame 6.svg" alt="Logo">
-    </header>
-    <main class="container">
-        <section class="container__content">
-            <textarea name="textArea" id="text" class="container__content__text" cols="30" rows="10"
-                placeholder="Digite seu texto"></textarea>
-            <div class="container__alert">
-                <img src="./src/assets/Vector.svg" alt="Ícone de exclamação" class="container__alert__icon">
-                <span class="container__alert__span">Apenas letras minúsculas e sem acento.</span>
-            </div>
-            <button class="container__content__btn-encrypt" id="btn-encrypt"
-                onclick="btnEncryptOnClick()">Criptografar</button>
-            <button class="container__content__btn-decrypt" id="btn-descrypt"
-                onclick="btnDecryptOnClick()">Descriptografar</button>
-        </section>
-        <section class="container__box-message">
-            <img src="./src/assets/High quality products 1 1.svg" alt="Imagem de uma menina usando lupa no diamante"
-                class="container__box-message__image" id="image">
-            <h2 class="container__box-message__subtitle" id="subtitle">Nenhuma mensagem encontrada</h2>
-            <p class="container__box-message__paragraph" id="paragraph">Digite um texto que você deseja criptografar ou
-                descriptografar.
-            </p>
-            <textarea name="generatedText" id="generated-text" class="container__box-message__generated-text" cols="30"
-                rows="10"></textarea>
-            <button class="container__box-message__btn-copy" id="btn-copy" onclick="btnCopyOnClick()">Copiar</button>
-        </section>
-    </main>
-    <footer>
-        <h2>Desenvolvido por <a href="https://github.com/helio020" target="_blank" rel="noopener noreferrer">Hélio</a>
-            💖</h2>
-    </footer>
+  <header>
+    <img src="./src/assets/Frame 6.svg" alt="Logo">
+  </header>
+  <main class="container">
+    <section class="container__content">
+      <textarea name="textArea" id="text" class="container__content__text" cols="30" rows="10"
+        placeholder="Digite seu texto"></textarea>
+      <div class="container__alert">
+        <img src="./src/assets/Vector.svg" alt="Ícone de exclamação" class="container__alert__icon">
+        <span class="container__alert__span">Apenas letras minúsculas e sem acento.</span>
+      </div>
+      <button class="container__content__btn-encrypt" id="btn-encrypt"
+        onclick="btnEncryptOnClick()">Criptografar</button>
+      <button class="container__content__btn-decrypt" id="btn-descrypt"
+        onclick="btnDecryptOnClick()">Descriptografar</button>
+    </section>
+    <section class="container__box-message">
+      <img src="./src/assets/High quality products 1 1.svg" alt="Imagem de uma menina usando lupa no diamante"
+        class="container__box-message__image" id="image">
+      <h2 class="container__box-message__subtitle" id="subtitle">Nenhuma mensagem encontrada</h2>
+      <p class="container__box-message__paragraph" id="paragraph">Digite um texto que você deseja criptografar ou
+        descriptografar.
+      </p>
+      <textarea name="generatedText" id="generated-text" class="container__box-message__generated-text" cols="30"
+        rows="10"></textarea>
+      <button class="container__box-message__btn-copy" id="btn-copy" onclick="btnCopyOnClick()">Copiar</button>
+    </section>
+  </main>
+  <footer>
+    <h2>Desenvolvido por <a href="https://github.com/helio020" target="_blank" rel="noopener noreferrer">Hélio</a>
+      💖</h2>
+  </footer>
 
-    <script type="text/javascript" src="./script.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
 </body>
 
 </html>
